@@ -17,19 +17,8 @@ public class Player {
         return health;
     }
 
-    // Getter for strength
-    public int getStrength() {
-        return strength;
-    }
-
-    // Getter for attack
-    public int getAttack() {
-        return attack;
-    }
-    
     // Setter for health
-    public void setHealth(int health) {
-        this.health = health;
-    }
+    public void health_harm(int damage)
+    {health+=damage;}
 
 }
